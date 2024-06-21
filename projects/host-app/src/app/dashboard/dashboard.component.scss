@@ -1,0 +1,21 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.chart-container {
+    margin: 20px 0;
+    text-align: center;
+    width: 100vw;
+    max-height: 70vh;
+}
+
+.canvas {
+    width: 100%;
+    margin: 50px 100px;
+}
+
+
+  

@@ -1,0 +1,24 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.sidenav-container {
+    position: absolute;
+    top: 4rem;
+    bottom: 4rem;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.drawer {
+  width: 15%;
+  background-color: whitesmoke;
+}
+
+.drawer-content {
+  width: 85%;
+}
+
+.mat-mdc-list-base {
+  --mdc-list-list-item-label-text-size: 1.25rem;
+  --mdc-list-list-item-label-text-weight: 500;
+}

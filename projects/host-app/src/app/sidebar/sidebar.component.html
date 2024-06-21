@@ -1,0 +1,11 @@
+<mat-drawer-container class="sidenav-container">
+  <mat-drawer class="drawer" mode="side" opened>
+    <mat-nav-list class="menu">
+      <a mat-list-item routerLink="/dashboard">Dashboard</a>
+      <a mat-list-item routerLink="/todos">Todos</a>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content class="drawer-content">
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
